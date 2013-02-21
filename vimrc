@@ -20,3 +20,8 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Powerline
 set laststatus=2
+
+" Tagbar button
+nmap <silent> <F8> :TagbarToggle<CR>
+let g:tagbar_autoclose=1 
+
