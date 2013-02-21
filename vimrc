@@ -18,4 +18,5 @@ au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" Powerline
 set laststatus=2
