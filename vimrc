@@ -26,3 +26,6 @@ set laststatus=2
 nmap <silent> <F8> :TagbarToggle<CR>
 let g:tagbar_autoclose=1 
 
+" Unittest hotkey <F5>
+autocmd filetype python map <F5> <ESC>:wa<ENTER>:!python2 -m unittest discover<ENTER>
+
