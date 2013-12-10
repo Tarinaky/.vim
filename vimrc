@@ -31,6 +31,6 @@ autocmd filetype python map <F5> <ESC>:wa<ENTER>:!echo "Running tests..."&&pytho
 " Python insert-mode shortcuts
 autocmd filetype python inoremap ( ()<ESC>i
 autocmd filetype python inoremap def def ():<ESC>hhi
-autocmd filetype python inoremap class class (object):<ENTER>def __init__():<ENTER>pass<ESC>kkhhhhhi
+autocmd filetype python inoremap class class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
 
