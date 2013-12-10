@@ -28,4 +28,8 @@ let g:tagbar_autoclose=1
 
 " Unittest hotkey <F5>
 autocmd filetype python map <F5> <ESC>:wa<ENTER>:!echo "Running tests..."&&python2 -m unittest discover -p '*.py'<ENTER>
+" Python insert-mode shortcuts
+autocmd filetype python imap def def ():<ESC>hhi
+autocmd filetype python imap class class (object):<ENTER>def __init__<ESC>laself<ESC>A<ENTER>pass<ESC>kkhhhhhi
+
 
