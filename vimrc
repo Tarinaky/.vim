@@ -1,5 +1,10 @@
 execute pathogen#infect()
 
+hi Comment ctermfg=5
+" Backspace
+set backspace=2
+
+
 syntax on
 set nu
 filetype indent plugin on
@@ -33,4 +38,6 @@ autocmd filetype python map <F5> <ESC>:wa<ENTER>:!echo "Running tests..."&&pytho
 autocmd filetype python inoremap def<SPACE> def ():<ESC>hhi
 autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
+" C++11
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
