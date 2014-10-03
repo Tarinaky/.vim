@@ -4,11 +4,13 @@ hi Comment ctermfg=5
 " Backspace
 set backspace=2
 
+let g:tagbar_ctags_bin = "c:\\ctags.exe"
 
 syntax on
 set nu
 filetype indent plugin on
-au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+set tabstop=4
+au FileType python setlocal tabstop=4 expandtab
 
 " Make up and down play nice with line wrapping.
 :nmap j gj
