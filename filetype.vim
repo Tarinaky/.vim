@@ -35,6 +35,7 @@ endfun
 
 augroup filetypedetect
 
+au BufNewFile,BufRead *.lzz		setf cpp
 au BufNewFile,BufRead *.as      setlocal ft=actionscript nolist ts=4 sw=4 noet
 au BufNewFile,BufRead *.bb      setf xdefaults
 au BufNewFile,BufRead *.csv     setf csv

@@ -4,8 +4,6 @@ hi Comment ctermfg=5
 " Backspace
 set backspace=2
 
-let g:tagbar_ctags_bin = "c:\\ctags.exe"
-
 syntax on
 set nu
 filetype indent plugin on
@@ -40,6 +38,11 @@ autocmd filetype python map <F5> <ESC>:wa<ENTER>:!echo "Running tests..."&&pytho
 autocmd filetype python inoremap def<SPACE> def ():<ESC>hhi
 autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
-" C++11
-let g:syntastic_cpp_compiler_options = ' -std=c++11'
+" C++14
+let g:syntastic_cpp_compiler_options = ' -std=c++14'
 
+" Conque
+let g:ConqueTerm_ToggleKey = "<F7>"
+let g:ConqueTerm_Color = 2
+let g:ConqueTerm_CloseOnEnd = 1
+let g:ConqueTerm_StartMessages = 0
