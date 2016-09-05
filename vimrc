@@ -31,8 +31,12 @@ if executable('ag')
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
-" Powerline
+" Airline
 set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+AirlineTheme base16
 
 " Tagbar button
 nmap <silent> <F8> :TagbarToggle<CR>
