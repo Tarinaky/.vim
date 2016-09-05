@@ -23,10 +23,6 @@ au FileType python setlocal tabstop=4 expandtab
 " Needed for CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_max_files=0
-if executable('ag')
-	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-endif
 
 " Powerline
 set laststatus=2
@@ -50,6 +46,3 @@ let g:ConqueTerm_ToggleKey = "<F7>"
 let g:ConqueTerm_Color = 2
 let g:ConqueTerm_CloseOnEnd = 1
 let g:ConqueTerm_StartMessages = 0
-
-" DetectIndent
-:DetectIndent
