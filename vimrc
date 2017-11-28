@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
-hi Comment ctermfg=5
+set background=dark
+"hi Comment ctermfg=5
 " Backspace
 set backspace=2
 
@@ -16,6 +17,12 @@ set colorcolumn=80
 " Make up and down play nice with line wrapping.
 :nmap j gj
 :nmap k gk
+:nnoremap <Tab> :bn<CR>
+:nnoremap <S-Tab> :bp<CR>
+:nnoremap <C-N> :enew<CR>
+:nnoremap <C-]> g<C-]>
+
+:set hidden
 
 " Make search more intelligent
 :set incsearch
@@ -36,7 +43,7 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
-AirlineTheme base16
+let g:airline_theme='base16'
 
 " Tagbar button
 nmap <silent> <F8> :TagbarToggle<CR>
