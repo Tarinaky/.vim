@@ -20,6 +20,7 @@ set colorcolumn=80
 :nnoremap <Tab> :bn<CR>
 :nnoremap <S-Tab> :bp<CR>
 :nnoremap <C-N> :enew<CR>
+:nnoremap <C-]> g<C-]>
 
 :set hidden
 
