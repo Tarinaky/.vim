@@ -1,4 +1,5 @@
 execute pathogen#infect()
+runtime ftplugin/man.vim
 
 hi Comment ctermfg=5
 " Backspace
