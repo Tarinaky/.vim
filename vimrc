@@ -1,4 +1,5 @@
 execute pathogen#infect()
+runtime ftplugin/man.vim
 
 set background=dark
 "hi Comment ctermfg=5
