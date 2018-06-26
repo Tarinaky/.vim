@@ -17,6 +17,10 @@ set colorcolumn=80
 " Make up and down play nice with line wrapping.
 :nmap j gj
 :nmap k gk
+:nnoremap <Tab> :bn<CR>
+:nnoremap <S-Tab> :bp<CR>
+:nnoremap <C-N> :enew<CR>
+:nnoremap <C-]> g<C-]>
 
 " Make search more intelligent
 :set incsearch
