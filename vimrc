@@ -61,7 +61,7 @@ autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__
 "let g:syntastic_cpp_compiler_options = ' -std=c++14'
 
 " Enable ALE
-:ALEEnable
+:call ale#toggle#Enable()
 
 " Conque
 let g:ConqueTerm_ToggleKey = "<F7>"
