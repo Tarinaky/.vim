@@ -58,6 +58,9 @@ autocmd filetype python inoremap def<SPACE> def ():<ESC>hhi
 autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
 :call ale#toggle#Enable()
+let g:UltiSnipsExpandTrigger="<c-.>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
 " Conque
 let g:ConqueTerm_ToggleKey = "<F7>"
