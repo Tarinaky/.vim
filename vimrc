@@ -63,6 +63,11 @@ autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__
 " Enable ALE
 :call ale#toggle#Enable()
 
+" Snippets commands
+let g:UltiSnipsExpandTrigger="<c-.>"
+let g:UltiSnipsJumpForwardTrigger="<c-f>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+
 " Conque
 let g:ConqueTerm_ToggleKey = "<F7>"
 let g:ConqueTerm_Color = 2
