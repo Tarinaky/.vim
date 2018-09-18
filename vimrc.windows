@@ -57,9 +57,15 @@ autocmd filetype python map <F5> <ESC>:wa<ENTER>:!echo "Running tests..."&&pytho
 autocmd filetype python inoremap def<SPACE> def ():<ESC>hhi
 autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
-:call ale#toggle#Enable()
+" C++14
+"let g:syntastic_cpp_compiler_options = ' -std=c++14'
+
+" Enable ALE
+:ALEEnable
+
+" Snippets trigger
 let g:UltiSnipsExpandTrigger="<c-.>"
-let g:UltiSnipsJumpForwardTrigger="<c-f>"
+let g:UltuiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
 " Conque

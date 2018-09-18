@@ -68,6 +68,11 @@ let g:UltiSnipsExpandTrigger="<c-.>"
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
+" Snippets trigger
+let g:UltiSnipsExpandTrigger="<c-.>"
+let g:UltuiSnipsJumpForwardTrigger="<c-f>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+
 " Conque
 let g:ConqueTerm_ToggleKey = "<F7>"
 let g:ConqueTerm_Color = 2
