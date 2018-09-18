@@ -58,7 +58,10 @@ autocmd filetype python inoremap def<SPACE> def ():<ESC>hhi
 autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__(self):<ENTER>pass<ESC>kkhhhhhi
 
 " C++14
-let g:syntastic_cpp_compiler_options = ' -std=c++14'
+"let g:syntastic_cpp_compiler_options = ' -std=c++14'
+
+" Enable ALE
+:ALEEnable
 
 " Conque
 let g:ConqueTerm_ToggleKey = "<F7>"
