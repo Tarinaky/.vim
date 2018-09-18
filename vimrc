@@ -33,7 +33,7 @@ set colorcolumn=80
 
 " Needed for CtrlP
 let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_cmd = 'CtrlPTag'
 let g:ctrlp_max_files=0
 if executable('ag')
 	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
