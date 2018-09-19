@@ -60,9 +60,6 @@ autocmd filetype python inoremap class<SPACE> class (object):<ENTER>def __init__
 " C++14
 "let g:syntastic_cpp_compiler_options = ' -std=c++14'
 
-" Enable ALE
-:call ale#toggle#Enable()
-
 " Snippets commands
 let g:UltiSnipsExpandTrigger="<c-.>"
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
