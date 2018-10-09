@@ -6,6 +6,8 @@ set background=dark
 " Backspace
 set backspace=2
 
+set completeopt-=preview
+
 syntax on
 set nu
 filetype indent plugin on
